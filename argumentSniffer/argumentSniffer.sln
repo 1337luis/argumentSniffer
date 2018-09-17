@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2016
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "argumentSniffer", "argumentSniffer\argumentSniffer.csproj", "{84CFD779-D8E7-4674-AA36-19A7804AF5E4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{84CFD779-D8E7-4674-AA36-19A7804AF5E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84CFD779-D8E7-4674-AA36-19A7804AF5E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84CFD779-D8E7-4674-AA36-19A7804AF5E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84CFD779-D8E7-4674-AA36-19A7804AF5E4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B32E6099-3B4B-4FC2-B9FF-0FDC4C9C94B2}
+	EndGlobalSection
+EndGlobal
