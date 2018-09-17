@@ -10,14 +10,16 @@ namespace argumentSniffer
     {
         static void Main( string[] args )
         {
+            //ADDS TO THE FIRST ARGUMENT THE NAME OF THE EXE AND A SPACE
             String arguments = System.AppDomain.CurrentDomain.FriendlyName + " ";
 
+            //ADDS ALL EACH OTHER ARGUMENTS TO THE VARIABLE
             foreach( String argument in args )
             {
-                arguments += format( argument ) + " ";
+                arguments += format( argument ) + " "; //IF DETECTS ANY SPACE IN A SINGLE ARGUMENT, ADDS '"' TO IT
             }
             Console.WriteLine( arguments );
-            save( arguments );
+            save( arguments ); //SAVE THE FILE
         }
 
         static String format( String arg )
@@ -43,6 +45,7 @@ namespace argumentSniffer
         }
         static void save( String arg )
         {
+            //NAMING AND SAVING THE SCRIPT
             System.IO.File.WriteAllText( 
                 "launcher_" + 
                 DateTime.Now.Day + "_" + 
